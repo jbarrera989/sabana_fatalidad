@@ -1,0 +1,4 @@
+CREATE USER CAMILO IDENTIFIED BY 'CAMILO';
+CREATE USER JOHN IDENTIFIED BY 'JOHN';
+GRANT ALL ON sabana_mortalidad_mineria.* to CAMILO;
+GRANT SELECT ON sabana_mortalidad_mineria.* to JOHN;
